@@ -32,6 +32,10 @@ public class Author {
         books = new HashSet<Book>();
     }
 
+    public void addBook(Book book){
+        books.add(book);
+    }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -86,4 +90,6 @@ public class Author {
                 ", books=" + books +
                 '}';
     }
+
+
 }
